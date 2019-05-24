@@ -1,0 +1,149 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+.header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20%;
+  border-right: 1px solid transparent;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.media a {
+  color: #68665f;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.media a:hover {
+  color: black;
+}
+
+.header section {
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  color: #423f37;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.header section p {
+  margin-bottom: 20px;
+}
+
+header:after {
+  content: "";
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  right: -1px;
+  width: 1px;
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(227, 224, 216, 0) 0%,
+    #e3e0d8 20%,
+    #e3e0d8 80%,
+    rgba(227, 224, 216, 0) 100%
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgba(227, 224, 216, 0) 0%,
+    #e3e0d8 20%,
+    #e3e0d8 80%,
+    rgba(227, 224, 216, 0) 100%
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    rgba(227, 224, 216, 0) 0%,
+    #e3e0d8 20%,
+    #e3e0d8 80%,
+    rgba(227, 224, 216, 0) 100%
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgba(227, 224, 216, 0) 0%,
+    #e3e0d8 20%,
+    #e3e0d8 80%,
+    rgba(227, 224, 216, 0) 100%
+  );
+  background: linear-gradient(
+    top,
+    rgba(227, 224, 216, 0) 0%,
+    #e3e0d8 20%,
+    #e3e0d8 80%,
+    rgba(227, 224, 216, 0) 100%
+  );
+}
+
+.article {
+  margin: 10% 0 10% 20%;
+  width: 80%;
+  overflow: hidden;
+}
+
+.lhc {
+  margin-left: 6%;
+  font-size: 13px;
+  color: #423f37;
+}
+
+.lhc h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  color: #423f37;
+}
+
+.wrapper {
+  display: grid;
+  /* grid-template-columns: 450px 450px; */
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.imgCard {
+  background-color: #444;
+  padding: 50px;
+  padding-top: 100px;
+  min-height: 100px;
+}
+
+.box a {
+  color: #d32626;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.leftPad {
+  padding-left: 10px;
+}
+
+a:hover {
+  color: #d32626;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+}
+
+.essays {
+  margin-top: 40px;
+}
