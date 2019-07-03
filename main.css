@@ -20,6 +20,16 @@ body {
   margin-left: 5px;
 }
 
+.box a {
+  color: #0000ee;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #d32626;
+  text-decoration: underline;
+}
+
 .media a:hover {
   color: black;
 }
@@ -121,12 +131,6 @@ header:after {
   padding: 50px;
   padding-top: 100px;
   min-height: 100px;
-}
-
-.box a {
-  color: #d32626;
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 ul {
