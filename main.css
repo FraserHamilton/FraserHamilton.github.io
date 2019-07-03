@@ -162,3 +162,9 @@ a {
   font-family: "Rock Salt", cursive;
   line-height: 1.5em;
 }
+
+@media (max-width: 1050px) {
+  header {
+    display: none !important;
+  }
+}
