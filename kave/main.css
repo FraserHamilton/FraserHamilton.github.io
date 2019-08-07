@@ -272,6 +272,10 @@ a:hover {
   .book-btn {
     font-size: 24px;
   }
+
+  .logo-sub {
+    font-size: 24px;
+  }
 }
 @keyframes bounce {
   from {
