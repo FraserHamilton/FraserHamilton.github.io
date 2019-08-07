@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="fullPage.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <script>
       $(document).ready(function() {
         $("#fullpage").fullpage({
-          //options here
           autoScrolling: true,
           anchors: ["home", "about", "services", "gallery", "book"],
           onLeave: function(origin, destination, direction) {
