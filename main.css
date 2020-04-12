@@ -5,6 +5,28 @@ body {
   font-family: "Open Sans";
 }
 
+.banner {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+.banner p {
+  color: rgb(68, 68, 68);
+  font-size: 13px;
+  margin: 0px;
+  padding: 0.8em;
+}
+
+.banner a:hover {
+  color: #d32626;
+  cursor: pointer;
+}
+
 .header {
   display: block;
   text-align: center;
