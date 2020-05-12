@@ -10,9 +10,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: none;
   border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
 }
 .banner p {
@@ -199,5 +197,11 @@ a {
 
   body {
     overflow-y: hidden;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
