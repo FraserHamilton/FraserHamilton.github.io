@@ -4,8 +4,23 @@
 }
 
 @media (max-width: 600px) {
-  .into-image {
+  /* .into-image {
     display: none;
+  } */
+
+  .intro-content {
+    flex-direction:column-reverse;
+  }
+  .heading-jumbo {
+    text-align: center;
+  }
+  .intro-text {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .link-block {
+    float:none;
   }
 }
 
@@ -45,4 +60,16 @@
 .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.section-heading {
+  color: #000;
+}
+
+.about-grid {
+  margin-bottom: 120px;
+}
+
+.section-2 {
+  padding-bottom: 20px;
 }
