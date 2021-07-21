@@ -9,10 +9,11 @@
   } */
 
   .intro-content {
-    flex-direction:column-reverse;
+    flex-direction: column-reverse;
   }
   .heading-jumbo {
     text-align: center;
+    margin-bottom: 60px;
   }
   .intro-text {
     justify-content: center;
@@ -20,8 +21,12 @@
     flex-direction: column;
   }
   .link-block {
-    float:none;
+    float: none;
   }
+}
+
+.heading-jumbo {
+  margin-bottom: 60px;
 }
 
 @keyframes bounce {
